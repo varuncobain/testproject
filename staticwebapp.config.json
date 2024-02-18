@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "route": "*",
+      "statusCode": 503,
+      "rewrite": "/"
+    }
+  ]
+}
