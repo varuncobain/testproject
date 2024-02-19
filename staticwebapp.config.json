@@ -1,12 +1,7 @@
 {
-  "routes": [
-    {
-      "route": "/index",
-      "rewrite": "/"
-    },
-    {
-     "route": "/test/",
-     "rewrite": "/down.html",
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/down.html"
     }
-  ]
+  }
 }
