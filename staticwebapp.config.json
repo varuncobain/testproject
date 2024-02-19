@@ -1,9 +1,12 @@
 {
   "routes": [
     {
-      "route": "*",
-      "statusCode": 503,
+      "route": "/index",
       "rewrite": "/"
+    },
+    {
+     "route": "/test/",
+     "rewrite": "/down.html",
     }
   ]
 }
