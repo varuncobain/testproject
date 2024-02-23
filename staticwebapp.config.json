@@ -1,11 +1,11 @@
 {
   "routes": [
-     {
-     "route": "/",
-     "rewrite": "/notindex.html",
-     "statusCode": 307
+    {
+      "route": "/",
+      "rewrite": "/notindex.html",
+      "statusCode": 200
     }
-  ]
+  ],
   "responseOverrides": {
     "404": {
       "rewrite": "/down.html"
